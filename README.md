@@ -1,3 +1,6 @@
+# [Today I Learned](https://qkrsogusl3.github.io/TIL/)
+[![pages-build-deployment](https://github.com/qkrsogusl3/TIL/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master&event=page_build)](https://github.com/qkrsogusl3/TIL/actions/workflows/pages/pages-build-deployment)
+
 # Minimal Mistakes remote theme starter
 
 Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
