@@ -1,0 +1,6 @@
+{
+    "frontMatter.framework.id": "other",
+    "frontMatter.content.publicFolder": "",
+    "frontMatter.framework.startCommand": "bundle exec jekyll serve",
+    "frontMatter.preview.host": "http://127.0.0.1:4000"
+}

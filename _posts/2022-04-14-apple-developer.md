@@ -5,7 +5,7 @@ categories:
 tags:
 ---
 
-# Apple Developer Program
+## Apple Developer Program
 
 ---
 
@@ -21,5 +21,6 @@ Entity Type
 
 ## References
 
-___
+---
+
 * [애플 개발자 계정: 회사 계정으로 가입하기 상세 가이드](https://app-dev.mytory.net/2021/03/22/register-apple-developer-program-as-organization/)
