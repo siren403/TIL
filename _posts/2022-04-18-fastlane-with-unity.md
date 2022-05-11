@@ -16,16 +16,20 @@ tags:
 
 fastlane Getting Started
 ---
+[rbenv](https://github.com/rbenv/rbenv#homebrew)
+```bash
+# install rbenv
+rbenv install ruby
+# install bundler
+gem install bundler
+# install fastlane
+cd $WORK_DIR
+bundle init
+echo "\ngem 'fastlane'" >> ./Gemfile
+bundle install
+# bundle install
 
-```
-//rbenv
-//install ruby
-//install bundler
-//install fastlane
-
-//bundle install
-
-brew install ios-deploy // use install_on_device
+brew install ios-deploy # use install_on_device
 ```
 
 AppStore
