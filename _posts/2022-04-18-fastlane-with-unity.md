@@ -24,13 +24,19 @@ rbenv install ruby
 # install bundler
 gem install bundler
 # install fastlane
+gem install fastlane
+
 cd $WORK_DIR
 
-bundle init
-#echo "\ngem 'fastlane'" >> ./Gemfile
-bundle add fastlane
-bundle install
+mkdir fastlane
+cd fastlane
 
+fastlane init
+
+# test
+fastlane custom_lane
+
+# macos
 brew install ios-deploy # use install_on_device
 ```
 
