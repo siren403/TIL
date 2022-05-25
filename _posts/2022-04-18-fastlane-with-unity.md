@@ -7,6 +7,7 @@ tags:
   - Unity
   - iOS
   - Android
+  - CD
 ---
   
 ## Table of Content
@@ -24,10 +25,11 @@ rbenv install ruby
 gem install bundler
 # install fastlane
 cd $WORK_DIR
+
 bundle init
-echo "\ngem 'fastlane'" >> ./Gemfile
+#echo "\ngem 'fastlane'" >> ./Gemfile
+bundle add fastlane
 bundle install
-# bundle install
 
 brew install ios-deploy # use install_on_device
 ```

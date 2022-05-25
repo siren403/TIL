@@ -3,7 +3,9 @@ title: NFT with klaytn
 categories:
   - blog
 tags:
-  - Unity
+  - NFT
+  - Klaytn
+  - OpenSea
 ---
 
 TL;DR
@@ -14,8 +16,8 @@ TL;DR
    1. reveal 구현 시
       1. 비공개용 단일 이미지 ipfs 업로드
       2. 비공개용 단일 이미지를 가리키는 json data 생성
-   2. 제네레이터 기반 생성
-      1. hashlip-art-engine
+      3. 제네레이터 기반 생성
+         1. hashlip-art-engine
 3. 스마트 컨트랙 배포
    1. 클래이튼 IDE 사용
    2. tokenURI 함수 체크
@@ -23,8 +25,9 @@ TL;DR
    1. airdrop
    2. whitelist
    3. public
-5. Reveal   
+5. Reveal
 
+    
 keywords
 ---
 
@@ -37,6 +40,7 @@ keywords
 - [opensea](https://opensea.io/)
 - [opensea testnet](https://testnets.opensea.io/)
 - kaikas
+- istanbul (Baobab), constantinople (Cypress)
 
 repository
 ---
@@ -51,3 +55,4 @@ tutorials
 - [스마트 컨트랙 민팅](https://www.youtube.com/watch?v=_9EyLqGmQYw)
 - [민팅 사이트](https://www.youtube.com/watch?v=4CWng2wWy9I)
 - [hashlip art engine](https://youtu.be/IEOsoUiT_30?t=915)
+
