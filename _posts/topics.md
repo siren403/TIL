@@ -71,3 +71,43 @@ steps:
     commands: 
     - "$$UNITY_EDITOR -batchmode -quit -buildTarget $$BUILD_TARGET -executeMethod $$EXECUTE_METHOD -job $$JOB"
 ```
+
+klaytn dapp project
+---
+
+- react 
+- truffle
+- drizzle
+- redux
+- redux-saga
+
+> truffle console
+```
+let instance = await Counter.deployed()
+```
+
+1. new react project
+2. `truffle init`
+3. create contract
+4. create migration
+5. `yarn add dotenv`
+6. `yarn add truffle-hdwallet-provider-klaytn`
+7. setting truffle-config.js
+8. `truffle deploy --network <network>`
+
+[HARDHAT AND ETHERS](https://ethereum.org/ko/developers/tutorials/waffle-say-hello-world-with-hardhat-and-ethers/)
+- react
+- hardhat
+
+```bash
+# create react project
+yarn add -D hardhat @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+mkdir contracts
+touch ./contracts/<Contract>.sol
+
+mkdir scripts
+
+mkdir test
+touch ./test/sample-test.js
+
+```

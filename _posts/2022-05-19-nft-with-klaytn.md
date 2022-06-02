@@ -40,6 +40,9 @@ keywords
 - [opensea testnet](https://testnets.opensea.io/)
 - kaikas
 - istanbul (Baobab), constantinople (Cypress)
+- [klaytn public node](https://docs.klaytnapi.com/tutorial/public-node-api/public-en)
+- [klaytn with truffle docs](https://ko.docs.klaytn.foundation/smart-contract/ide-and-tools/truffle#using-a-private-key)
+- 
 
 repository
 ---

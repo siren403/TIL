@@ -1,0 +1,63 @@
+@startuml
+
+!include https://raw.githubusercontent.com/ptrkcsk/one-dark-plantuml-theme/v1.0.0/theme.puml
+
+package "Local" {
+    [Git]
+}
+
+cloud "aws" {
+    [Lambda]
+    [Code Commit]
+}
+
+cloud "Buildkite" {
+    [pipeline]
+
+}
+
+package "Self Hosted - MacOS" {
+
+    folder "Buildkite Agent" {
+        [Agent]
+        folder "hooks" {
+            [environment]
+        }
+
+        folder "Repository" {
+            [Scripts]
+            [Fastlane]
+        }
+    }
+
+}
+
+[Git] -> [Code Commit] : push
+
+[Lambda] --> [Code Commit] : trigger
+[Lambda] --> [pipeline] : post
+
+[Agent] --> [pipeline] : polling
+[Agent] --> [environment]
+
+[Agent] --> [Scripts] : execute commands
+[Scripts] -> [Fastlane] : run builds
+
+[Fastlane] --> [AppCenter] : deploy .apk and .ipa
+[Fastlane] --> [Internal Test]
+[Fastlane] --> [Testflight]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

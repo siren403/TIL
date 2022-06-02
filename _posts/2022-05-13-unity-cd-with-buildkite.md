@@ -6,6 +6,8 @@ tags:
   - Unity
   - CD
   - Buildkite
+header:
+  image: /assets/uml/unity-cd-with-buildkite.png
 ---
 
 Dependencies
@@ -27,6 +29,7 @@ self-hosted로 할꺼니까 빌드머신 준비해야 해. 여기선 macos를 �
 파이프라인 트리거는 Lambda로 CodeCommit 이벤트 받아서 Buildkite 빌드실행
 url을 호출해줄거야. ok?
 
+![arch]({{ site.url }}{{ site.baseurl }}/assets/uml/unity-cd-with-buildkite.png)
 
 유니티 빌드 세팅
 ---
@@ -129,3 +132,11 @@ main 브랜치에서 push 발생 시 실행되도록 트리거 세팅.
 
 이제 Repository에 push해봐
 
+mac fastlane settings
+---
+
+- aws cli
+- `brew install pyenv`
+- `pip install git-remote-codecommit`
+- `MATCH_PASSWORD=`
+- `fastlane match development --readonly`
