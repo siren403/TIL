@@ -1,5 +1,5 @@
 # [Today I Learned](https://qkrsogusl3.github.io/TIL/)
-[![pages-build-deployment](https://github.com/qkrsogusl3/TIL/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master&event=page_build)](https://github.com/qkrsogusl3/TIL/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/qkrsogusl3/TIL/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/qkrsogusl3/TIL/actions/workflows/pages/pages-build-deployment)
 
 # Minimal Mistakes remote theme starter
 
