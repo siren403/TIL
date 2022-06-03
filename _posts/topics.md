@@ -111,3 +111,32 @@ mkdir test
 touch ./test/sample-test.js
 
 ```
+
+post processing
+---
+
+- [언리얼 - 포스트 프로세싱 머티리얼](https://docs.unrealengine.com/4.26/ko/RenderingAndGraphics/PostProcessEffects/PostProcessMaterials/)
+- [【UE4】포스트 프로세스로 만드는 아웃라인](https://qiita.com/4_mio_11/items/acb02e9d3e81d34b45e0)
+- [URP 셰이더 코딩 튜토리얼 : 제 1편 - Unlit Soft Shadow](https://blog.naver.com/mnpshino/221844164319)
+
+graphics
+---
+
+- [렌더링 파이프라인의 좌표 공간들 - clip space](http://rapapa.net/?p=3531)
+- [Transition Shader in godot](https://www.youtube.com/watch?app=desktop&v=K9FBpJ2Ypb4)
+- [Godot Shader Tutorial (1): Intro to Shader Programming](https://www.youtube.com/watch?v=xoyk_A0RSpI)
+
+ssh
+---
+
+- [Understanding ssh-agent and ssh-add - Enter passphrase for key '/home/user/.ssh/id_rsa':](http://blog.joncairns.com/2013/12/understanding-ssh-agent-and-ssh-add/)
+
+unity - uitoolkit
+---
+
+- [AspectRatioPanel.cs](https://gist.github.com/pbhogan/2094a033c094ddd1b0b8f37a5dffd005)
+
+  {% gist pbhogan/2094a033c094ddd1b0b8f37a5dffd005 %}
+
+- [URP로 시작하세요! 셰이더 입문](https://qiita.com/flankids/items/a92b14834792a10798e5)
+- [L book](https://www.amazon.co.jp/HLSL-%E3%82%B7%E3%82%A7%E3%83%BC%E3%83%80%E3%83%BC%E3%81%AE%E9%AD%94%E5%B0%8E%E6%9B%B8-%E3%82%B7%E3%82%A7%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E3%83%AC%E3%82%A4%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%81%BE%E3%81%A7-%E6%B8%85%E5%8E%9F-%E9%9A%86%E8%A1%8C/dp/4798164283)
