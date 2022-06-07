@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Aaron"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "흔히 있는 게임 개발자"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
