@@ -33,3 +33,52 @@ docker desktop의 경우 File Sharing에서 마운트 해야 할 경로를 지�
 {: .notice--info}
 
 
+docker file arg
+
+```shell
+docker build \
+-t essearch/ess-elasticsearch:1.7.6 \
+--build-arg number_of_shards=5 \
+--build-arg number_of_replicas=2 \
+--no-cache .
+```
+
+```dockerfile
+FROM alpine
+ARG number_of_shards
+RUN echo $number_of_shards
+```
+
+image
+---
+
+```shell
+docker images -a
+
+# image id
+docker images -a -q '<Image>'
+```
+
+```shell
+# remove image
+docker image rm <IMAGE>
+docker rmi <IMAGE>
+```
+
+container
+---
+
+```shell
+docker ps -a
+
+# image 이름으로 id 검색
+docker ps -a --format {% raw %}"{{.ID}} {{.Image}}"{% endraw %} | grep '<Image>' | awk '{print $1}'
+```
+
+build
+---
+
+```shell
+# docker build -t <name:tag> --build-arg <key>=<value> -f <file> <path>
+docker build -t test:1.0 --build-arg MSG=test -f Dockerfile .
+```
