@@ -24,9 +24,9 @@ docker run -it unityci/editor:ubuntu-2021.2.12f1-base-1.0.1
 [Offline (manual) license activation](https://docs.unity3d.com/Manual/ManualActivationGuide.html)
 
 ```shell
-unity-editor -batchmode -createManualActivationFile -logfile
+unity-editor -batchmode -createManualActivationFile -logfile -
 ```
 
 ```shell
-unity-editor -batchmode -manualLicenseFile *.ulf -logfile
+unity-editor -batchmode -manualLicenseFile *.ulf -logfile -
 ```

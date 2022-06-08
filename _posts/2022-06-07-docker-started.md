@@ -79,6 +79,10 @@ build
 ---
 
 ```shell
-# docker build -t <name:tag> --build-arg <key>=<value> -f <file> <path>
+# docker build -t <name:tag> --build-arg <key>=<value> -f <file> <context-path>
 docker build -t test:1.0 --build-arg MSG=test -f Dockerfile .
 ```
+
+**context-path** - 지정한 경로의 파일, 디렉로리를 빌드 컨텍스트에 포함시키기 때문에 이미지크기도 같이 커진다. 
+{: .notice--warning}
+

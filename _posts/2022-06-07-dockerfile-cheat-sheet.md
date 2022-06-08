@@ -89,3 +89,17 @@ ENV VERSION $VERSION
 
 CMD ["sh", "-c", "echo $VERSION"]
 ```
+
+COPY
+---
+
+```dockerfile
+# multi stage copy
+FROM $IMAGE_1 as first
+
+RUN touch test.txt
+
+FROM $IMAGE_2 as second
+
+COPY --from=first test.txt ./test.txt
+```
