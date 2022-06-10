@@ -1,7 +1,7 @@
 ---
 title: pyenv for Windows
 categories:
-  - bookmark
+  - Bookmark
 tags:
   - Windows
   - python

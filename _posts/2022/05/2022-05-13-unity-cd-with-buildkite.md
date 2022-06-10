@@ -1,7 +1,7 @@
 ---
 title: buildkite로 Unity CD 세팅해보자
 categories:
-  - blog
+  - Blog
 tags:
   - Unity
   - CD
@@ -140,3 +140,24 @@ mac fastlane settings
 - `pip install git-remote-codecommit`
 - `MATCH_PASSWORD=`
 - `fastlane match development --readonly`
+
+
+checklist
+===
+
+Enter passphrase k...
+---
+
+ssh agent 세팅 다시 해봐야 함.
+
+[맥에서 키체인을 활용한 세팅](https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically)
+
+```shell
+# agent 시작
+eval "$(ssh-agent -s)"
+# add key
+ssh-add --apple-use-keychain ~/.ssh/<private key>
+# 체크
+ssh-add -l 
+```
+

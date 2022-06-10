@@ -1,7 +1,7 @@
 ---
 title: "Apple Developer"
 categories:
-  - blog
+  - Blog
 tags:
 ---
 

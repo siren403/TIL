@@ -1,7 +1,7 @@
 ---
 title: Chocolatey
 categories:
-  - bookmark
+  - Bookmark
 tags:
   - Windows
 link: https://chocolatey.org

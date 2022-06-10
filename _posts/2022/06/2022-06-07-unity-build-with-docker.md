@@ -1,7 +1,7 @@
 ---
 title: docker로 Unity Build
 categories:
-  - blog
+  - Blog
 tags:
   - Unity
   - docker

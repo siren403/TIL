@@ -1,7 +1,7 @@
 ---
 title: RubyInstaller
 categories:
-  - bookmark
+  - Bookmark
 tags:
   - Windows
   - Ruby

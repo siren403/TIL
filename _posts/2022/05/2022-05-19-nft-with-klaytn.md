@@ -1,7 +1,7 @@
 ---
 title: NFT with klaytn
 categories:
-  - blog
+  - Blog
 tags:
   - NFT
   - Klaytn

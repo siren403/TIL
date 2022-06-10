@@ -1,7 +1,7 @@
 ---
 title: NVM for Windows
 categories:
-  - bookmark
+  - Bookmark
 tags:
   - Windows
   - Node.js

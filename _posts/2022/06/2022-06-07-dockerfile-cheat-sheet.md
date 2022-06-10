@@ -1,7 +1,7 @@
 ---
-title: Dockerfile cheat sheet
+title: Dockerfile CheatSheet
 categories:
-  - blog
+  - CheatSheet
 tags:
   - docker
 ---
@@ -102,4 +102,14 @@ RUN touch test.txt
 FROM $IMAGE_2 as second
 
 COPY --from=first test.txt ./test.txt
+```
+
+.dockerignore
+---
+
+build시 컨텍스트 제외 규칙.
+
+```ignorelang
+** # 전체 제외
+!*.txt # txt 확장자는 이전 규칙에서 제외
 ```

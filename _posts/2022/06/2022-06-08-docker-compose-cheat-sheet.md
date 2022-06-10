@@ -1,7 +1,7 @@
 ---
-title: Docker Compose cheat sheet
+title: Docker Compose CheatSheet
 categories:
-  - blog
+  - CheatSheet
 tags:
   - Docker
   - Docker Compose

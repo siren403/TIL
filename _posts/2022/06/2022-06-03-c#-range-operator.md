@@ -1,7 +1,7 @@
 ---
 title: C# Range
 categories:
-  - blog
+  - Blog
 tags:
   - c#
 ---

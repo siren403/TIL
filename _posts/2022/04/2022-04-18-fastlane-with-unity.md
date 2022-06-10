@@ -1,7 +1,7 @@
 ---
 title: fastlane With Unity
 categories:
-  - blog
+  - Blog
 tags:
   - fastlane
   - Unity
