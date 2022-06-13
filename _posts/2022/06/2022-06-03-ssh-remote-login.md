@@ -1,5 +1,5 @@
 ---
-title: ssh login
+title: ssh remote login
 categories:
   - Blog
 tags:
@@ -10,7 +10,11 @@ start ssh agent
 ---
 
 ```shell
+# macOS
 eval "$(ssh-agent -s)"
+
+# windows
+start-ssh-agent
 ```
 
 ```shell
@@ -33,6 +37,8 @@ cat ./id_rsa.pub >> ~/.ssh/authorized_keys
 
 기본 키(is_rsa)가 아닌 다른 키(ex. work_rsa)로 접속하려면
 
+접속 테스트
+known_hosts에 추가할지 메세지가 나옴
 ```shell
 ssh <username>@<host> -i <path/to/key>
 ```
