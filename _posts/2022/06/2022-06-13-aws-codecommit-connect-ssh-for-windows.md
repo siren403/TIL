@@ -1,5 +1,5 @@
 ---
-title: aws CodeCommit ssh Windows 세팅
+title: aws CodeCommit ssh Windows Settings
 categories:
   - Blog
 tags:
@@ -11,6 +11,9 @@ references
 ---
 
 - [SSH 연결을 위한 설정 단계AWS CodeCommitLinux, macOS 또는 Unix의 리포지토리](https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/setting-up-ssh-unixes.html)
+
+steps
+---
 
 1. IAM 권한 설정은 위 레퍼런스 참조
 2. ssh 키 생성
