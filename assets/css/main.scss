@@ -1,0 +1,51 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* https://github.com/lonekorean/gist-syntax-themes */
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/one-dark.css');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  margin: 20px;
+  font: 16px 'Open Sans', sans-serif;
+}
+
+//.gist {
+//  --color-one-dark-1: #232c34;
+//  --color-one-dark-2: #e06c75;
+//  --color-one-dark-3: #98c379;
+//  --color-one-dark-4: #e5c07b;
+//  --color-one-dark-5: #61afef;
+//  --color-one-dark-6: #c678dd;
+//  --color-one-dark-7: #56b6c2;
+//  --color-one-dark-8: #abb2bf;
+//  --color-one-dark-9: #5c636d;
+//}
+//
+//body .gist .gist-data {
+//  background-color: var(--color-one-dark-1);
+//}
+//
+//body .gist .gist-file {
+//  border: 1px solid var(--color-one-dark-9);
+//  border-bottom: 1px solid #ccc;
+//}
+//
+//body .gist .gist-data h2{
+//  color: var(--color-one-dark-5);
+//}
+//
+//body .gist .markdown-body .highlight pre
+//{
+//  background-color: var(--color-one-dark-9);
+//}
+//body .gist .markdown-body pre {
+//  background-color: var(--color-one-dark-9);
+//}
